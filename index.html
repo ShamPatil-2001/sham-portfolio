@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sham Patil - Portfolio</title>
+    <meta
+      name="description"
+      content="Creative personal portfolio for Sham Patil."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Syne:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="grain"></div>
+
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a class="logo" href="#home">SP</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">Menu</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#profiles">Profiles</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container reveal">
+        <p class="eyebrow">Creative Portfolio</p>
+        <h1>
+          Hi, I'm <span>Sham Patil</span>.<br />
+          Aspiring Data Engineer and Data Scientist.
+        </h1>
+        <p class="hero-copy">
+          I am building my career at the intersection of data, analytics, and
+          intelligent systems. I enjoy turning raw data into practical insights
+          and impactful solutions.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">See Projects</a>
+          <a class="btn btn-ghost" href="#profiles">My Profiles</a>
+          <a class="btn btn-ghost" href="#resume">View Resume</a>
+          <a class="btn btn-ghost" href="#contact">Let's Connect</a>
+        </div>
+      </section>
+
+      <section id="about" class="about container reveal">
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2>My journey from engineering to advanced data science.</h2>
+        </div>
+        <p>
+          I completed my Bachelor of Technology in Computer Science and
+          Engineering at Visvesvaraya National Institute of Technology, Nagpur,
+          India (June 2019 - May 2023). I worked as a Deputy Engineer at Bharat
+          Electronics Limited, Bangalore, India (August 2023 - March 2025),
+          where I also worked on network security responsibilities. I am
+          currently pursuing a Master's in Data Science at Monash University,
+          Melbourne, Australia (March 2025 - December 2026).
+        </p>
+      </section>
+
+      <section id="skills" class="skills container reveal">
+        <p class="eyebrow">Skills</p>
+        <p class="skills-intro">
+          Click any skill to view key topics I have learned.
+        </p>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <button class="skill-toggle" aria-expanded="false">
+              Python for Data Science
+            </button>
+            <ul class="skill-topics">
+              <li>Pandas and NumPy workflows</li>
+              <li>Data cleaning and preprocessing</li>
+              <li>Exploratory data analysis</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <button class="skill-toggle" aria-expanded="false">
+              SQL & Data Modeling
+            </button>
+            <ul class="skill-topics">
+              <li>Complex joins and window functions</li>
+              <li>Schema design and normalization</li>
+              <li>Query optimization basics</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <button class="skill-toggle" aria-expanded="false">
+              Data Engineering
+            </button>
+            <ul class="skill-topics">
+              <li>ETL/ELT pipeline design</li>
+              <li>Batch and near real-time data flows</li>
+              <li>Data quality and validation checks</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <button class="skill-toggle" aria-expanded="false">
+              Machine Learning
+            </button>
+            <ul class="skill-topics">
+              <li>Supervised learning algorithms</li>
+              <li>Model evaluation metrics</li>
+              <li>Feature engineering approaches</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <button class="skill-toggle" aria-expanded="false">
+              Deep Learning
+            </button>
+            <ul class="skill-topics">
+              <li>Neural network fundamentals</li>
+              <li>TensorFlow/PyTorch basics</li>
+              <li>Training and tuning strategies</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <button class="skill-toggle" aria-expanded="false">
+              Statistical Analysis
+            </button>
+            <ul class="skill-topics">
+              <li>Probability and hypothesis testing</li>
+              <li>Regression and correlation analysis</li>
+              <li>A/B testing basics</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <button class="skill-toggle" aria-expanded="false">
+              Data Visualization
+            </button>
+            <ul class="skill-topics">
+              <li>Dashboard storytelling</li>
+              <li>Matplotlib/Seaborn/Power BI basics</li>
+              <li>Communicating business insights</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <button class="skill-toggle" aria-expanded="false">
+              Big Data & Cloud
+            </button>
+            <ul class="skill-topics">
+              <li>Spark ecosystem fundamentals</li>
+              <li>Cloud data platform concepts</li>
+              <li>Scalable data processing mindset</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <button class="skill-toggle" aria-expanded="false">
+              Network Security
+            </button>
+            <ul class="skill-topics">
+              <li>Secure network fundamentals</li>
+              <li>Threat awareness and risk controls</li>
+              <li>Security practices from BEL role</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="projects container reveal">
+        <p class="eyebrow">Featured Work</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Data Pipeline Project</h3>
+            <p>Designed a reliable ETL workflow for structured analytics.</p>
+          </article>
+          <article class="project-card">
+            <h3>Machine Learning Study</h3>
+            <p>Built and evaluated predictive models using real-world datasets.</p>
+          </article>
+          <article class="project-card">
+            <h3>Interactive Insights Dashboard</h3>
+            <p>Created visual reports to communicate trends and decisions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="profiles" class="profiles container reveal">
+        <p class="eyebrow">Profiles</p>
+        <h2>Connect with my work across platforms.</h2>
+        <div class="profile-grid">
+          <article class="profile-card">
+            <h3>LinkedIn</h3>
+            <p>Professional background, education, and career updates.</p>
+            <a
+              class="btn btn-ghost"
+              href="https://www.linkedin.com/in/sham-raju-patil-741567364/"
+              target="_blank"
+              rel="noreferrer"
+              >Open LinkedIn</a
+            >
+          </article>
+          <article class="profile-card">
+            <h3>GitHub</h3>
+            <p>Code repositories, experiments, and project implementations.</p>
+            <a
+              class="btn btn-ghost"
+              href="https://github.com/ShamPatil-2001"
+              target="_blank"
+              rel="noreferrer"
+              >Open GitHub</a
+            >
+          </article>
+          <article class="profile-card">
+            <h3>Kaggle</h3>
+            <p>Datasets, notebooks, and practical machine learning work.</p>
+            <a
+              class="btn btn-ghost"
+              href="https://www.kaggle.com/shampatil2001"
+              target="_blank"
+              rel="noreferrer"
+              >Open Kaggle</a
+            >
+          </article>
+          <article class="profile-card">
+            <h3>Instagram</h3>
+            <p>Personal updates, creative posts, and social presence.</p>
+            <a
+              class="btn btn-ghost"
+              href="https://www.instagram.com/patil_sham_2001/"
+              target="_blank"
+              rel="noreferrer"
+              >Open Instagram</a
+            >
+          </article>
+        </div>
+        <p class="info-note">
+          Update these links with your real profile usernames.
+        </p>
+      </section>
+
+      <section id="resume" class="resume container reveal">
+        <p class="eyebrow">Resume</p>
+        <h2>Download my latest resume.</h2>
+        <p>
+          I am actively looking for Data Engineer or Data Scientist roles and
+          open to internship and full-time opportunities.
+        </p>
+        <div class="resume-actions">
+          <a class="btn btn-primary" href="Sham%20Raju%20Patil.pdf" download
+            >Download Resume (PDF)</a
+          >
+          <a
+            class="btn btn-ghost"
+            href="Sham%20Raju%20Patil.pdf"
+            target="_blank"
+            rel="noreferrer"
+            >View Resume</a
+          >
+        </div>
+      </section>
+
+      <section id="contact" class="contact container reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build something memorable.</h2>
+        <p>Email: patil.sham2001@gmail.com</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Sham Patil. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
