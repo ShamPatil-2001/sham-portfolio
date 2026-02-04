@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shampatil-2001.github.io/sham-portfolio/sitemap.xml
