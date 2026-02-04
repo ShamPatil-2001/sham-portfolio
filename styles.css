@@ -339,6 +339,24 @@ section {
   min-height: 54px;
 }
 
+
+.profile-head {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 0.3rem;
+}
+
+.profile-logo {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.profile-card h3 {
+  margin: 0;
+}
+
 .info-note {
   color: var(--muted);
   font-size: 0.9rem;
